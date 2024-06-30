@@ -16,4 +16,4 @@ let reactelement = {
 
 let maincontainer = document.getElementById("root");
 
-customrender(reactelement,maincontainer)
+customrender(reactelement,maincontainer);
