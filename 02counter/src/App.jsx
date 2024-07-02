@@ -14,8 +14,12 @@ function App() {
     if (counter + 1 > 20) {
       alert("you cant exceed the value more than 20");
     } else {
-      counter++;
-      setcounter(counter);
+      console.log(counter);
+      // counter++;
+      setcounter((prevcounter)=>prevcounter+1);
+      setcounter((prevcounter)=>prevcounter+1);
+      setcounter((prevcounter)=>prevcounter+1);
+      setcounter((prevcounter)=>prevcounter+1);
     }
     console.log(counter);
   }
@@ -24,8 +28,13 @@ function App() {
     if (counter - 1 < 0) {
       alert("youn cant go negative");
     } else {
-      counter--;
-      setcounter(counter);
+      // counter--;
+      // setcounter(counter);
+      console.log(counter);
+      setcounter((prevcounter)=>prevcounter-1);
+      setcounter((prevcounter)=>prevcounter-1);
+      setcounter((prevcounter)=>prevcounter-1);
+      setcounter((prevcounter)=>prevcounter-1);
     }
     console.log(counter);
   }
