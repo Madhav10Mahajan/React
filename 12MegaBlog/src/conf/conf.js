@@ -6,3 +6,5 @@ let conf = {
   appwriteCollectioId: String(import.meta.env.VITE_COLLECTION_ID),
 };
 export default conf;
+
+
